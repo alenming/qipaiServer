@@ -1,0 +1,117 @@
+﻿生成启动时间为 2019/5/12 14:08:14。
+     1>项目“F:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\GameControl.vcxproj”在节点 6 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release_Unicode\GameControl.pch" /Fo"Release_Unicode\\" /Fd"Release_Unicode\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BaccaratLogic.cpp CaiShenLogic.cpp JDQSLogic.cpp LandLogic.cpp LongHuLogic.cpp OxBattleLogic.cpp OxSixLogic.cpp RedBlackLogic.cpp ServerControl.cpp ServerControlItemSink.cpp SGLBLogic.cpp SGLogic.cpp SHZLogic.cpp stdafx.cpp ThirteenLogic.cpp TongZiLogic.cpp ZhaJinHuaLogic.cpp
+         BaccaratLogic.cpp
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\Macro.h(54): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_snwprintf”的声明
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\Macro.h(105): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_snwprintf”的声明
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\GlobalFunction.h(11): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_vsnwprintf”的声明
+         CaiShenLogic.cpp
+         JDQSLogic.cpp
+         LandLogic.cpp
+         LongHuLogic.cpp
+         OxBattleLogic.cpp
+         OxSixLogic.cpp
+         RedBlackLogic.cpp
+         ServerControl.cpp
+     1>f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\LandLogic.h(15): warning C4005: “MAX_COUNT”: 宏重定义
+                 f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\RedBlackLogic.h(11) : 参见“MAX_COUNT”的前一个定义
+     1>f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\ZhaJinHuaLogic.h(11): warning C4005: “MAX_COUNT”: 宏重定义
+                 f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\LandLogic.h(15) : 参见“MAX_COUNT”的前一个定义
+     1>f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\ZhaJinHuaLogic.h(21): warning C4005: “CT_SHUN_ZI”: 宏重定义
+                 f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\LongHuLogic.h(22) : 参见“CT_SHUN_ZI”的前一个定义
+     1>f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\ZhaJinHuaLogic.h(22): warning C4005: “CT_JIN_HUA”: 宏重定义
+                 f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\LongHuLogic.h(23) : 参见“CT_JIN_HUA”的前一个定义
+     1>f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\ZhaJinHuaLogic.h(23): warning C4005: “CT_SHUN_JIN”: 宏重定义
+                 f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\LongHuLogic.h(24) : 参见“CT_SHUN_JIN”的前一个定义
+     1>f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\ZhaJinHuaLogic.h(24): warning C4005: “CT_BAO_ZI”: 宏重定义
+                 f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\LongHuLogic.h(25) : 参见“CT_BAO_ZI”的前一个定义
+     1>f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\ZhaJinHuaLogic.h(25): warning C4005: “CT_SPECIAL”: 宏重定义
+                 f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\LongHuLogic.h(26) : 参见“CT_SPECIAL”的前一个定义
+         ServerControlItemSink.cpp
+     1>f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\LandLogic.h(15): warning C4005: “MAX_COUNT”: 宏重定义
+                 f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\RedBlackLogic.h(11) : 参见“MAX_COUNT”的前一个定义
+     1>f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\ZhaJinHuaLogic.h(11): warning C4005: “MAX_COUNT”: 宏重定义
+                 f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\LandLogic.h(15) : 参见“MAX_COUNT”的前一个定义
+     1>f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\ZhaJinHuaLogic.h(21): warning C4005: “CT_SHUN_ZI”: 宏重定义
+                 f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\LongHuLogic.h(22) : 参见“CT_SHUN_ZI”的前一个定义
+     1>f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\ZhaJinHuaLogic.h(22): warning C4005: “CT_JIN_HUA”: 宏重定义
+                 f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\LongHuLogic.h(23) : 参见“CT_JIN_HUA”的前一个定义
+     1>f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\ZhaJinHuaLogic.h(23): warning C4005: “CT_SHUN_JIN”: 宏重定义
+                 f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\LongHuLogic.h(24) : 参见“CT_SHUN_JIN”的前一个定义
+     1>f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\ZhaJinHuaLogic.h(24): warning C4005: “CT_BAO_ZI”: 宏重定义
+                 f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\LongHuLogic.h(25) : 参见“CT_BAO_ZI”的前一个定义
+     1>f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\ZhaJinHuaLogic.h(25): warning C4005: “CT_SPECIAL”: 宏重定义
+                 f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\LongHuLogic.h(26) : 参见“CT_SPECIAL”的前一个定义
+     1>ServerControlItemSink.cpp(509): warning C4244: “=”: 从“DOUBLE”转换到“int”，可能丢失数据
+     1>ServerControlItemSink.cpp(1086): warning C4244: “=”: 从“DOUBLE”转换到“int”，可能丢失数据
+     1>ServerControlItemSink.cpp(1373): warning C4244: “=”: 从“DOUBLE”转换到“int”，可能丢失数据
+     1>ServerControlItemSink.cpp(1664): warning C4244: “=”: 从“DOUBLE”转换到“int”，可能丢失数据
+     1>ServerControlItemSink.cpp(1936): warning C4244: “=”: 从“DOUBLE”转换到“int”，可能丢失数据
+     1>ServerControlItemSink.cpp(2092): warning C4244: “=”: 从“DOUBLE”转换到“int”，可能丢失数据
+     1>ServerControlItemSink.cpp(2222): warning C4244: “=”: 从“DOUBLE”转换到“int”，可能丢失数据
+     1>ServerControlItemSink.cpp(2467): warning C4244: “=”: 从“DOUBLE”转换到“int”，可能丢失数据
+     1>ServerControlItemSink.cpp(2550): warning C4244: “=”: 从“DOUBLE”转换到“int”，可能丢失数据
+     1>ServerControlItemSink.cpp(2616): warning C4244: “=”: 从“DOUBLE”转换到“int”，可能丢失数据
+     1>ServerControlItemSink.cpp(2676): warning C4244: “=”: 从“DOUBLE”转换到“int”，可能丢失数据
+     1>ServerControlItemSink.cpp(2759): warning C4244: “=”: 从“DOUBLE”转换到“int”，可能丢失数据
+     1>ServerControlItemSink.cpp(2902): warning C4244: “=”: 从“DOUBLE”转换到“int”，可能丢失数据
+     1>ServerControlItemSink.cpp(3220): warning C4244: “=”: 从“DOUBLE”转换到“int”，可能丢失数据
+     1>ServerControlItemSink.cpp(3438): warning C4244: “=”: 从“DOUBLE”转换到“int”，可能丢失数据
+     1>ServerControlItemSink.cpp(3579): warning C4244: “=”: 从“DOUBLE”转换到“int”，可能丢失数据
+     1>ServerControlItemSink.cpp(3767): warning C4244: “参数”: 从“WORD”转换到“BYTE”，可能丢失数据
+     1>ServerControlItemSink.cpp(3812): warning C4244: “=”: 从“DOUBLE”转换到“int”，可能丢失数据
+     1>ServerControlItemSink.cpp(4095): warning C4244: “=”: 从“DOUBLE”转换到“int”，可能丢失数据
+     1>ServerControlItemSink.cpp(4336): warning C4244: “初始化”: 从“DOUBLE”转换到“INT”，可能丢失数据
+     1>ServerControlItemSink.cpp(4460): warning C4244: “=”: 从“DOUBLE”转换到“int”，可能丢失数据
+     1>ServerControlItemSink.cpp(4742): warning C4244: “=”: 从“DOUBLE”转换到“int”，可能丢失数据
+     1>ServerControlItemSink.cpp(4955): warning C4244: “初始化”: 从“DOUBLE”转换到“LONGLONG”，可能丢失数据
+     1>ServerControlItemSink.cpp(4956): warning C4244: “初始化”: 从“DOUBLE”转换到“LONGLONG”，可能丢失数据
+     1>ServerControlItemSink.cpp(4970): warning C4244: “=”: 从“DOUBLE”转换到“LONGLONG”，可能丢失数据
+     1>ServerControlItemSink.cpp(4971): warning C4244: “=”: 从“DOUBLE”转换到“LONGLONG”，可能丢失数据
+     1>ServerControlItemSink.cpp(4972): warning C4244: “=”: 从“DOUBLE”转换到“int”，可能丢失数据
+     1>ServerControlItemSink.cpp(5011): warning C4244: “=”: 从“DOUBLE”转换到“LONGLONG”，可能丢失数据
+     1>ServerControlItemSink.cpp(5050): warning C4244: “初始化”: 从“DOUBLE”转换到“LONGLONG”，可能丢失数据
+     1>ServerControlItemSink.cpp(5051): warning C4244: “初始化”: 从“DOUBLE”转换到“LONGLONG”，可能丢失数据
+     1>ServerControlItemSink.cpp(5052): warning C4244: “=”: 从“LONGLONG”转换到“DOUBLE”，可能丢失数据
+     1>f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\servercontrolitemsink.cpp(3041): warning C4715: “CServerControlItemSink::cbFQZSGetAreaAnimal”: 不是所有的控件路径都返回值
+     1>f:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\servercontrolitemsink.cpp(3336): warning C4715: “CServerControlItemSink::cbBCBMGetAreaAnimal”: 不是所有的控件路径都返回值
+         SGLBLogic.cpp
+     1>SGLBLogic.cpp(125): warning C4553: “==”: 运算符不起任何作用；是否是有意使用“=”的?
+     1>SGLBLogic.cpp(278): warning C4244: “return”: 从“DOUBLE”转换到“int”，可能丢失数据
+         SGLogic.cpp
+     1>SGLogic.cpp(365): warning C4244: “=”: 从“WORD”转换到“BYTE”，可能丢失数据
+         SHZLogic.cpp
+     1>SHZLogic.cpp(171): warning C4244: “return”: 从“DOUBLE”转换到“int”，可能丢失数据
+         stdafx.cpp
+         ThirteenLogic.cpp
+         TongZiLogic.cpp
+         ZhaJinHuaLogic.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Release/Unicode/GameControl.dll" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"../../../运行/Release/Unicode/GameControl.pdb" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../../运行/Release/Unicode/GameControl.lib" /MACHINE:X86 /SAFESEH /DLL Release_Unicode\BaccaratLogic.obj
+         Release_Unicode\CaiShenLogic.obj
+         Release_Unicode\JDQSLogic.obj
+         Release_Unicode\LandLogic.obj
+         Release_Unicode\LongHuLogic.obj
+         Release_Unicode\OxBattleLogic.obj
+         Release_Unicode\OxSixLogic.obj
+         Release_Unicode\RedBlackLogic.obj
+         Release_Unicode\ServerControl.obj
+         Release_Unicode\ServerControlItemSink.obj
+         Release_Unicode\SGLBLogic.obj
+         Release_Unicode\SGLogic.obj
+         Release_Unicode\SHZLogic.obj
+         Release_Unicode\stdafx.obj
+         Release_Unicode\ThirteenLogic.obj
+         Release_Unicode\TongZiLogic.obj
+         Release_Unicode\ZhaJinHuaLogic.obj
+            正在创建库 ../../../运行/Release/Unicode/GameControl.lib 和对象 ../../../运行/Release/Unicode/GameControl.exp
+         GameControl.vcxproj -> F:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\../../../运行/Release/Unicode/GameControl.dll
+     1>已完成生成项目“F:\jiuxing\代码\服务端\系统模块\服务器组件\游戏控制\GameControl.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:12.09

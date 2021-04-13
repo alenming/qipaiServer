@@ -1,0 +1,50 @@
+﻿生成启动时间为 2019/5/12 14:08:44。
+     1>项目“F:\jiuxing\代码\服务端\系统模块\服务器组件\内核引擎\KernelEngine.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D KERNEL_ENGINE_DLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release_Unicode\内核引擎.pch" /Fo"Release_Unicode\\" /Fd"Release_Unicode\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Stdafx.cpp
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D KERNEL_ENGINE_DLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release_Unicode\内核引擎.pch" /Fo"Release_Unicode\\" /Fd"Release_Unicode\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AsynchronismEngine.cpp AttemperEngine.cpp DataBaseAide.cpp DataBaseEngine.cpp KernelEngine.cpp TCPNetworkEngine.cpp TCPSocketService.cpp TimerEngine.cpp TraceService.cpp TraceServiceManager.cpp
+         AsynchronismEngine.cpp
+         AttemperEngine.cpp
+         DataBaseAide.cpp
+         DataBaseEngine.cpp
+         KernelEngine.cpp
+         TCPNetworkEngine.cpp
+     1>TCPNetworkEngine.cpp(6): warning C4603: “new”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 TCPNetworkEngine.cpp(9) : 使用预编译头
+         TCPSocketService.cpp
+     1>TCPSocketService.cpp(229): warning C4996: 'WSAAsyncSelect': Use WSAEventSelect() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(2699) : 参见“WSAAsyncSelect”的声明
+     1>TCPSocketService.cpp(983): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1850) : 参见“inet_addr”的声明
+     1>TCPSocketService.cpp(988): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(2238) : 参见“gethostbyname”的声明
+         TimerEngine.cpp
+         TraceService.cpp
+         TraceServiceManager.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease_Unicode\ /nologo /fo"Release_Unicode\KernelEngine.res" KernelEngine.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(F:\jiuxing\代码\服务端\系统模块\服务器组件\内核引擎\Release_Unicode\内核引擎.dll) does not match the Linker's OutputFile property value (F:\jiuxing\代码\服务端\运行\Release\Unicode\KernelEngine.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(内核引擎) does not match the Linker's OutputFile property value (KernelEngine). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Release/Unicode/KernelEngine.dll" /INCREMENTAL:NO /NOLOGO "../../链接库/unicode/ServiceCore.lib" /DEF:".\KernelEngine.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"Release_Unicode\内核引擎.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../链接库/Unicode/KernelEngine.lib" /MACHINE:X86 /SAFESEH /DLL Release_Unicode\KernelEngine.res
+         Release_Unicode\AsynchronismEngine.obj
+         Release_Unicode\AttemperEngine.obj
+         Release_Unicode\DataBaseAide.obj
+         Release_Unicode\DataBaseEngine.obj
+         Release_Unicode\KernelEngine.obj
+         Release_Unicode\Stdafx.obj
+         Release_Unicode\TCPNetworkEngine.obj
+         Release_Unicode\TCPSocketService.obj
+         Release_Unicode\TimerEngine.obj
+         Release_Unicode\TraceService.obj
+         Release_Unicode\TraceServiceManager.obj
+            正在创建库 ../../链接库/Unicode/KernelEngine.lib 和对象 ../../链接库/Unicode/KernelEngine.exp
+         KernelEngine.vcxproj -> F:\jiuxing\代码\服务端\系统模块\服务器组件\内核引擎\Release_Unicode\内核引擎.dll
+     1>已完成生成项目“F:\jiuxing\代码\服务端\系统模块\服务器组件\内核引擎\KernelEngine.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.67

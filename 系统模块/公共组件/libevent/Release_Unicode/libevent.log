@@ -1,0 +1,110 @@
+﻿生成启动时间为 2019/5/12 14:08:14。
+     1>项目“F:\jiuxing\代码\服务端\系统模块\公共组件\libevent\libevent.vcxproj”在节点 4 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I./include /I./compat /Zi /nologo /W3 /WX- /O2 /Oy- /D event_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release_Unicode\\" /Fd"Release_Unicode\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt buffer.c bufferevent.c bufferevent_async.c bufferevent_filter.c bufferevent_pair.c bufferevent_ratelim.c bufferevent_sock.c buffer_iocp.c evdns.c event.c event_iocp.c event_tagging.c evmap.c evrpc.c evthread.c evthread_win32.c evutil.c evutil_rand.c evutil_time.c http.c listener.c log.c signal.c strlcpy.c win32select.c
+         buffer.c
+     1>buffer.c(3096): warning C4244: “函数”: 从“const __int64”转换到“size_t”，可能丢失数据
+     1>buffer.c(3107): warning C4244: “函数”: 从“__int64”转换到“unsigned int”，可能丢失数据
+     1>buffer.c(3107): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(337) : 参见“read”的声明
+     1>buffer.c(3166): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(326) : 参见“close”的声明
+     1>buffer.c(3225): warning C4244: “=”: 从“__int64”转换到“ev_misalign_t”，可能丢失数据
+     1>buffer.c(3226): warning C4244: “=”: 从“__int64”转换到“size_t”，可能丢失数据
+     1>buffer.c(3227): warning C4244: “=”: 从“__int64”转换到“size_t”，可能丢失数据
+     1>buffer.c(3245): warning C4244: “函数”: 从“unsigned __int64”转换到“SIZE_T”，可能丢失数据
+     1>buffer.c(3251): warning C4244: “=”: 从“unsigned __int64”转换到“size_t”，可能丢失数据
+     1>buffer.c(3252): warning C4244: “=”: 从“unsigned __int64”转换到“ev_misalign_t”，可能丢失数据
+     1>buffer.c(3253): warning C4244: “=”: 从“__int64”转换到“size_t”，可能丢失数据
+     1>buffer.c(3261): warning C4244: “=”: 从“__int64”转换到“size_t”，可能丢失数据
+     1>buffer.c(3262): warning C4244: “=”: 从“__int64”转换到“size_t”，可能丢失数据
+     1>buffer.c(3266): warning C4244: “+=”: 从“__int64”转换到“size_t”，可能丢失数据
+         bufferevent.c
+         bufferevent_async.c
+         bufferevent_filter.c
+         bufferevent_pair.c
+         bufferevent_ratelim.c
+         bufferevent_sock.c
+         buffer_iocp.c
+         evdns.c
+     1>evdns.c(3821): warning C4996: 'GetVersion': 被声明为已否决
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110) : 参见“GetVersion”的声明
+         event.c
+         event_iocp.c
+         event_tagging.c
+         evmap.c
+         evrpc.c
+         evthread.c
+         evthread_win32.c
+         evutil.c
+     1>evutil.c(115): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(237) : 参见“_open”的声明
+     1>evutil.c(1842): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : 参见“_vsnprintf”的声明
+     1>evutil.c(1968): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>evutil.c(1997): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>evutil.c(2396): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(462) : 参见“getenv”的声明
+     1>evutil.c(2508): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>evutil.c(2509): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         evutil_rand.c
+         evutil_time.c
+     1>evutil_time.c(166): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(99) : 参见“gmtime”的声明
+     1>evutil_time.c(537): warning C4244: “=”: 从“__int64”转换到“long”，可能丢失数据
+     1>evutil_time.c(542): warning C4244: “=”: 从“time_t”转换到“long”，可能丢失数据
+         http.c
+     1>http.c(1636): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+         正在生成代码...
+         正在编译...
+         listener.c
+         log.c
+     1>log.c(116): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(168) : 参见“strerror”的声明
+     1>log.c(127): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(168) : 参见“strerror”的声明
+         signal.c
+         strlcpy.c
+         win32select.c
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease_Unicode\ /nologo /fo"Release_Unicode\libevent.res" libevent.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(F:\jiuxing\代码\服务端\系统模块\公共组件\libevent\Release_Unicode\libevent2.1.8.dll) does not match the Linker's OutputFile property value (F:\jiuxing\代码\服务端\运行\Release\Unicode\libevent.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(libevent2.1.8) does not match the Linker's OutputFile property value (libevent). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Release/Unicode/libevent.dll" /INCREMENTAL:NO /NOLOGO ws2_32.lib Advapi32.lib shell32.lib /DEF:".\libevent.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"Release_Unicode\libevent2.1.8.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../链接库/Unicode/libevent.lib" /MACHINE:X86 /SAFESEH /DLL Release_Unicode\libevent.res
+         Release_Unicode\buffer.obj
+         Release_Unicode\bufferevent.obj
+         Release_Unicode\bufferevent_async.obj
+         Release_Unicode\bufferevent_filter.obj
+         Release_Unicode\bufferevent_pair.obj
+         Release_Unicode\bufferevent_ratelim.obj
+         Release_Unicode\bufferevent_sock.obj
+         Release_Unicode\buffer_iocp.obj
+         Release_Unicode\evdns.obj
+         Release_Unicode\event.obj
+         Release_Unicode\event_iocp.obj
+         Release_Unicode\event_tagging.obj
+         Release_Unicode\evmap.obj
+         Release_Unicode\evrpc.obj
+         Release_Unicode\evthread.obj
+         Release_Unicode\evthread_win32.obj
+         Release_Unicode\evutil.obj
+         Release_Unicode\evutil_rand.obj
+         Release_Unicode\evutil_time.obj
+         Release_Unicode\http.obj
+         Release_Unicode\listener.obj
+         Release_Unicode\log.obj
+         Release_Unicode\signal.obj
+         Release_Unicode\strlcpy.obj
+         Release_Unicode\win32select.obj
+            正在创建库 ../../链接库/Unicode/libevent.lib 和对象 ../../链接库/Unicode/libevent.exp
+         libevent.vcxproj -> F:\jiuxing\代码\服务端\系统模块\公共组件\libevent\Release_Unicode\libevent2.1.8.dll
+     1>已完成生成项目“F:\jiuxing\代码\服务端\系统模块\公共组件\libevent\libevent.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:13.04

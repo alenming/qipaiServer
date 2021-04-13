@@ -1,0 +1,127 @@
+﻿生成启动时间为 2019/5/12 14:08:14。
+     1>项目“F:\jiuxing\代码\服务端\系统模块\公共组件\服务核心\ServiceCore.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D JSON_DLL_BUILD /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D SERVICE_CORE_DLL /D _UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release_Unicode\服务核心.pch" /Fo"Release_Unicode\\" /Fd"Release_Unicode\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Stdafx.cpp
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D JSON_DLL_BUILD /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D SERVICE_CORE_DLL /D _UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release_Unicode\服务核心.pch" /Fo"Release_Unicode\\" /Fd"Release_Unicode\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ServiceCore.cpp WHCommandLine.cpp WHDataLocker.cpp WHDataQueue.cpp WHEncrypt.cpp WHIniData.cpp WHMD5CheckSum.cpp WHRegKey.cpp WHService.cpp WHThread.cpp yxyDES.cpp
+         ServiceCore.cpp
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\Macro.h(54): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_snwprintf”的声明
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\Macro.h(105): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_snwprintf”的声明
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\GlobalFunction.h(11): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_vsnwprintf”的声明
+         WHCommandLine.cpp
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\Macro.h(54): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_snwprintf”的声明
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\Macro.h(105): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_snwprintf”的声明
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\GlobalFunction.h(11): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_vsnwprintf”的声明
+         WHDataLocker.cpp
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\Macro.h(54): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_snwprintf”的声明
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\Macro.h(105): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_snwprintf”的声明
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\GlobalFunction.h(11): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_vsnwprintf”的声明
+         WHDataQueue.cpp
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\Macro.h(54): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_snwprintf”的声明
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\Macro.h(105): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_snwprintf”的声明
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\GlobalFunction.h(11): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_vsnwprintf”的声明
+         WHEncrypt.cpp
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\Macro.h(54): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_snwprintf”的声明
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\Macro.h(105): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_snwprintf”的声明
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\GlobalFunction.h(11): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_vsnwprintf”的声明
+     1>WHEncrypt.cpp(360): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(787) : 参见“_swprintf”的声明
+     1>WHEncrypt.cpp(390): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl(85) : 参见“swprintf”的声明
+         WHIniData.cpp
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\Macro.h(54): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_snwprintf”的声明
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\Macro.h(105): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_snwprintf”的声明
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\GlobalFunction.h(11): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_vsnwprintf”的声明
+         WHMD5CheckSum.cpp
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\Macro.h(54): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_snwprintf”的声明
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\Macro.h(105): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_snwprintf”的声明
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\GlobalFunction.h(11): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_vsnwprintf”的声明
+         WHRegKey.cpp
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\Macro.h(54): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_snwprintf”的声明
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\Macro.h(105): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_snwprintf”的声明
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\GlobalFunction.h(11): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_vsnwprintf”的声明
+     1>WHRegKey.cpp(94): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_snwprintf”的声明
+     1>WHRegKey.cpp(116): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_snwprintf”的声明
+         WHService.cpp
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\Macro.h(54): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_snwprintf”的声明
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\Macro.h(105): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_snwprintf”的声明
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\GlobalFunction.h(11): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_vsnwprintf”的声明
+     1>WHService.cpp(176): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>WHService.cpp(183): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(787) : 参见“_swprintf”的声明
+         WHThread.cpp
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\Macro.h(54): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_snwprintf”的声明
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\Macro.h(105): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_snwprintf”的声明
+     1>f:\jiuxing\代码\服务端\系统模块\全局定义\GlobalFunction.h(11): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(733) : 参见“_vsnwprintf”的声明
+         yxyDES.cpp
+     1>yxyDES.cpp(121): warning C4018: “<”: 有符号/无符号不匹配
+     1>yxyDES.cpp(241): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+     1>yxyDES.cpp(246): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(937) : 参见“itoa”的声明
+     1>yxyDES.cpp(454): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+     1>yxyDES.cpp(529): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>yxyDES.cpp(564): warning C4018: “<”: 有符号/无符号不匹配
+     1>yxyDES.cpp(599): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>yxyDES.cpp(605): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>yxyDES.cpp(611): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease_Unicode\ /nologo /fo"Release_Unicode\ServiceCore.res" ServiceCore.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(F:\jiuxing\代码\服务端\系统模块\公共组件\服务核心\Release_Unicode\服务核心.dll) does not match the Linker's OutputFile property value (F:\jiuxing\代码\服务端\运行\Release\Unicode\ServiceCore.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(服务核心) does not match the Linker's OutputFile property value (ServiceCore). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Release/Unicode/ServiceCore.dll" /INCREMENTAL:NO /NOLOGO /DEF:".\ServiceCore.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"Release_Unicode\服务核心.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../链接库/Unicode/ServiceCore.lib" /MACHINE:X86 /SAFESEH /DLL Release_Unicode\ServiceCore.res
+         Release_Unicode\ServiceCore.obj
+         Release_Unicode\Stdafx.obj
+         Release_Unicode\WHCommandLine.obj
+         Release_Unicode\WHDataLocker.obj
+         Release_Unicode\WHDataQueue.obj
+         Release_Unicode\WHEncrypt.obj
+         Release_Unicode\WHIniData.obj
+         Release_Unicode\WHMD5CheckSum.obj
+         Release_Unicode\WHRegKey.obj
+         Release_Unicode\WHService.obj
+         Release_Unicode\WHThread.obj
+         Release_Unicode\yxyDES.obj
+            正在创建库 ../../链接库/Unicode/ServiceCore.lib 和对象 ../../链接库/Unicode/ServiceCore.exp
+         ServiceCore.vcxproj -> F:\jiuxing\代码\服务端\系统模块\公共组件\服务核心\Release_Unicode\服务核心.dll
+     1>已完成生成项目“F:\jiuxing\代码\服务端\系统模块\公共组件\服务核心\ServiceCore.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.49

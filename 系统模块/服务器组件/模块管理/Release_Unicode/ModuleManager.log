@@ -1,0 +1,29 @@
+﻿生成启动时间为 2019/5/12 14:08:54。
+     1>项目“F:\jiuxing\代码\服务端\系统模块\服务器组件\模块管理\ModuleManager.vcxproj”在节点 17 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(F:\jiuxing\代码\服务端\系统模块\服务器组件\模块管理\Release_Unicode\模块管理.dll) does not match the Linker's OutputFile property value (F:\jiuxing\代码\服务端\运行\Release\Unicode\ModuleManager.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(模块管理) does not match the Linker's OutputFile property value (ModuleManager). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Release/Unicode/ModuleManager.dll" /INCREMENTAL:NO /NOLOGO /DEF:".\ModuleManager.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"Release_Unicode\模块管理.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../链接库/Unicode/ModuleManager.lib" /MACHINE:X86 /SAFESEH /DLL Release_Unicode\ModuleManager.res
+         Release_Unicode\DlgMatchWizard.obj
+         Release_Unicode\DlgServerItem.obj
+         Release_Unicode\DlgServerMatch.obj
+         Release_Unicode\DlgServerWizard.obj
+         Release_Unicode\ListControl.obj
+         Release_Unicode\MatchInfoManager.obj
+         Release_Unicode\MatchListControl.obj
+         Release_Unicode\ModuleDBParameter.obj
+         Release_Unicode\ModuleInfoManager.obj
+         Release_Unicode\ModuleListControl.obj
+         Release_Unicode\ModuleManager.obj
+         Release_Unicode\ServerCustomRule.obj
+         Release_Unicode\ServerInfoManager.obj
+         Release_Unicode\ServerListControl.obj
+         Release_Unicode\Stdafx.obj
+         "F:\jiuxing\代码\服务端\系统模块\链接库\Unicode\ServiceCore.lib"
+            正在创建库 ../../链接库/Unicode/ModuleManager.lib 和对象 ../../链接库/Unicode/ModuleManager.exp
+         ModuleManager.vcxproj -> F:\jiuxing\代码\服务端\系统模块\服务器组件\模块管理\Release_Unicode\模块管理.dll
+     1>已完成生成项目“F:\jiuxing\代码\服务端\系统模块\服务器组件\模块管理\ModuleManager.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.38

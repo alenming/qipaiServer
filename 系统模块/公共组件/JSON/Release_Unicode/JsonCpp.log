@@ -1,0 +1,68 @@
+﻿生成启动时间为 2019/5/12 14:08:14。
+     1>项目“F:\jiuxing\代码\服务端\系统模块\公共组件\JSON\JsonCpp.vcxproj”在节点 5 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D JSON_DLL_BUILD /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release_Unicode\JSONCPP.pch" /Fo"Release_Unicode\\" /Fd"Release_Unicode\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Stdafx.cpp
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D JSON_DLL_BUILD /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release_Unicode\\" /Fd"Release_Unicode\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt json_reader.cpp json_value.cpp json_writer.cpp
+         json_reader.cpp
+     1>f:\jiuxing\代码\服务端\系统模块\公共组件\json\reader.h(155): warning C4251: “Json::Reader::nodes_”: class“std::stack<Json::Value *,std::deque<_Ty,std::allocator<_Ty>>>”需要有 dll 接口由 class“Json::Reader”的客户端使用
+                 with
+                 [
+                     _Ty=Json::Value *
+                 ]
+     1>f:\jiuxing\代码\服务端\系统模块\公共组件\json\reader.h(156): warning C4251: “Json::Reader::errors_”: class“std::deque<Json::Reader::ErrorInfo,std::allocator<_Ty>>”需要有 dll 接口由 class“Json::Reader”的客户端使用
+                 with
+                 [
+                     _Ty=Json::Reader::ErrorInfo
+                 ]
+     1>f:\jiuxing\代码\服务端\系统模块\公共组件\json\reader.h(157): warning C4251: “Json::Reader::document_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Json::Reader”的客户端使用
+     1>f:\jiuxing\代码\服务端\系统模块\公共组件\json\reader.h(163): warning C4251: “Json::Reader::commentsBefore_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Json::Reader”的客户端使用
+         json_value.cpp
+     1>f:\jiuxing\代码\服务端\系统模块\公共组件\json\writer.h(43): warning C4251: “Json::FastWriter::document_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Json::FastWriter”的客户端使用
+     1>f:\jiuxing\代码\服务端\系统模块\公共组件\json\writer.h(94): warning C4251: “Json::StyledWriter::childValues_”: class“std::vector<std::string,std::allocator<_Ty>>”需要有 dll 接口由 class“Json::StyledWriter”的客户端使用
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>f:\jiuxing\代码\服务端\系统模块\公共组件\json\writer.h(95): warning C4251: “Json::StyledWriter::document_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Json::StyledWriter”的客户端使用
+     1>f:\jiuxing\代码\服务端\系统模块\公共组件\json\writer.h(96): warning C4251: “Json::StyledWriter::indentString_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Json::StyledWriter”的客户端使用
+     1>f:\jiuxing\代码\服务端\系统模块\公共组件\json\writer.h(152): warning C4251: “Json::StyledStreamWriter::childValues_”: class“std::vector<std::string,std::allocator<_Ty>>”需要有 dll 接口由 class“Json::StyledStreamWriter”的客户端使用
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>f:\jiuxing\代码\服务端\系统模块\公共组件\json\writer.h(154): warning C4251: “Json::StyledStreamWriter::indentString_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Json::StyledStreamWriter”的客户端使用
+     1>f:\jiuxing\代码\服务端\系统模块\公共组件\json\writer.h(156): warning C4251: “Json::StyledStreamWriter::indentation_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Json::StyledStreamWriter”的客户端使用
+         json_writer.cpp
+     1>f:\jiuxing\代码\服务端\系统模块\公共组件\json\writer.h(43): warning C4251: “Json::FastWriter::document_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Json::FastWriter”的客户端使用
+     1>f:\jiuxing\代码\服务端\系统模块\公共组件\json\writer.h(94): warning C4251: “Json::StyledWriter::childValues_”: class“std::vector<std::string,std::allocator<_Ty>>”需要有 dll 接口由 class“Json::StyledWriter”的客户端使用
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>f:\jiuxing\代码\服务端\系统模块\公共组件\json\writer.h(95): warning C4251: “Json::StyledWriter::document_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Json::StyledWriter”的客户端使用
+     1>f:\jiuxing\代码\服务端\系统模块\公共组件\json\writer.h(96): warning C4251: “Json::StyledWriter::indentString_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Json::StyledWriter”的客户端使用
+     1>f:\jiuxing\代码\服务端\系统模块\公共组件\json\writer.h(152): warning C4251: “Json::StyledStreamWriter::childValues_”: class“std::vector<std::string,std::allocator<_Ty>>”需要有 dll 接口由 class“Json::StyledStreamWriter”的客户端使用
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>f:\jiuxing\代码\服务端\系统模块\公共组件\json\writer.h(154): warning C4251: “Json::StyledStreamWriter::indentString_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Json::StyledStreamWriter”的客户端使用
+     1>f:\jiuxing\代码\服务端\系统模块\公共组件\json\writer.h(156): warning C4251: “Json::StyledStreamWriter::indentation_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Json::StyledStreamWriter”的客户端使用
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease_Unicode\ /nologo /fo"Release_Unicode\JsonCpp.res" JsonCpp.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(F:\jiuxing\代码\服务端\系统模块\公共组件\JSON\..\..\链接库\unicode\JSONCPP.dll) does not match the Linker's OutputFile property value (F:\jiuxing\代码\服务端\运行\Release\Unicode\JsonCpp.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Release/Unicode/JsonCpp.dll" /NOLOGO /DEF:".\JsonCpp.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /PDB:"..\..\链接库\unicode\JSONCPP.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../链接库/Unicode/JsonCpp.lib" /MACHINE:X86 /SAFESEH /DLL Release_Unicode\JsonCpp.res
+         Release_Unicode\json_reader.obj
+         Release_Unicode\json_value.obj
+         Release_Unicode\json_writer.obj
+         Release_Unicode\Stdafx.obj
+            正在创建库 ../../链接库/Unicode/JsonCpp.lib 和对象 ../../链接库/Unicode/JsonCpp.exp
+         JsonCpp.vcxproj -> F:\jiuxing\代码\服务端\系统模块\公共组件\JSON\..\..\链接库\unicode\JSONCPP.dll
+     1>已完成生成项目“F:\jiuxing\代码\服务端\系统模块\公共组件\JSON\JsonCpp.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.63
